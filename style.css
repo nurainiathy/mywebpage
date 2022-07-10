@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #fbf8cc ;
+    margin: 0;
+    padding: 0;
+    /* background: url(bg.jpg);
+    background-size: cover; */
+
+}
+
+
+header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(223, 216, 207);
+    position: fixed;
+    top: 0;
+}
+
+.judul h2 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serifS;
+   /* background: rgb(104,28,116);
+background: linear-gradient(90deg, rgba(104,28,116,1) 8%, rgba(111,133,193,1) 56%, rgba(59,173,196,1) 100%); */
+}
+
+#aku {
+    padding-left: 180px;
+    padding-top: 10px;
+}
+
+.kotak {
+    height: 250px;
+    width: 250px;
+    background-color: blueviolet;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 4px;
+
+}
+
+ nav div h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+nav ul {
+    display:flex;
+    list-style:none;
+    width: 55%;
+    justify-content: space-between;
+ 
+}
+
+nav ul li {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.backgroundhome {
+    background:url("https://i.pinimg.com/originals/3c/7a/fc/3c7afc1b68c0f8cc367dd9d0f1f383de.jpg");
+    justify-content: center;
+    align-items: center;
+    padding: 250px 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+  
+
+}
+
+.backgroundhome h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif,cursive,cambria;
+    /* animation: glow 1.5s ease-in-out infinite; */
+    color: #fbf8cc;
+    text-shadow: 0 0 30px darkblue, 0 0 50px darkblue, 0 0 40px black, 0 0 80px white, 0 0 200px rgb(114, 114, 177), 0 0 30px  rgb(50, 50, 128);
+}
+
+/* @keyframes glow {
+    from {
+        text-shadow: 0 0 30px darkblue;
+    }
+    to {text-shadow: 0 0 50px darkblue,
+                     0 0 50px darkblue;
+
+    }
+} */
+
+
+
+.backgroundhome p {
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /* animation: blink 3s ease infinite; */
+    text-shadow: 1px 1px white; 
+    letter-spacing: 2px;
+}
+
+
+
+.div {
+    max-width: 100%;
+    background-color:rgb(223, 216, 207) ;
+    padding: 20px 20px;
+   
+    flex-direction: column;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    
+ }
+
+.gambar {
+    width: 25%;
+    height: 25%;
+    border-radius: 50px;
+    
+}
+
+
+.isiprofile {
+    text-align:left;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+}
+
+.isi {
+    text-align: left;
+
+    letter-spacing: 0,6px;
+}
+
+.bungkus {
+    display: flex;
+    flex-direction: row;
+}
+
+.kresek {
+    padding: 25px;
+}
+
+.education {
+    background: rgb(182, 138, 223);
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.edubox {
+    background: rgb(122, 84, 145);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    margin: 20px 20px;
+    border-radius:15px;
+    color: #fff;
+    font-family: finlandica, sans-serif;
+}
+
+
+.contacts {
+    background: rgb(182, 138, 223);
+    display: flex;
+    padding: 20px 20px;
+    color: #fff;
+    font-family: finlandica, sans-serif;
+    
+}
+
+.email {
+    display: flex;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nmaemail {
+    padding-left: 10px;
+}
+
+.contactbox {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.contact {
+    display: flex;
+    background: white;
+    padding: 50px 50px;
+}
+
+.h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
